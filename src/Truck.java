@@ -9,9 +9,11 @@ public class Truck extends Vehicle {
         checkEngine();
         checkTrailer();
     }
+
     public void checkEngine() {
         System.out.println("Проверяем двигатель грузовика " + getModelName());
     }
+
     public void checkTrailer() {
         System.out.println("Проверяем прицеп грузовика " + getModelName());
     }
